@@ -1,0 +1,22 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: box-runing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box-runing{
+    25%{
+transform: translate(0,300px);
+background-color:blue ;
+    }
+    50%{
+transform:translate(300px,300px);
+background-color:green ;
+    }
+    75%{
+transform:translate(300px,0px);
+background-color: yellow;
+    }
+}
